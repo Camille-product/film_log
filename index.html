@@ -524,10 +524,32 @@
     .controls { padding: 20px 24px; }
     .grid-container { padding: 32px 24px 60px; }
     #movie-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+
+      .between{
+      display: block;
+      text-align: center;
+    }
+    .spring img{ height: 255px;
+    
+    }
+    .kindle img{ height: 50px; }
+    .videomusic img{ height:30px; }
+
   }
 
   @media (max-width: 480px) {
     #movie-grid { grid-template-columns: repeat(2, 1fr); }
+    .between{
+      display: block;
+      text-align: center;
+    }
+      
+    .spring img{ height: 250px;
+    
+    }
+    .kindle img{ height: 50px; }
+    .videomusic img{ height:70px; }
+
   }
 
   /* ── FOOTER ── */
@@ -578,6 +600,7 @@
       <a href="https://amzn.to/4teQwSq" class="videomusic"><img src="primevideo.jpg" alt="amazonprimevideo"></a>
       <a href="https://amzn.to/41x4qUb" class="videomusic"><img src="music.jpg" alt="amazonmusic"></a>
     </div>
+
 
 <div class="controls">
   <!-- Row 1: Search + Year filter + View toggle -->
