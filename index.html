@@ -117,6 +117,24 @@
     font-style: italic;
   }
 
+  /* ── AFFILIATE ── */
+  .between{
+    margin-top:25px;
+  }
+
+  .spring img{
+    height: 262px;
+
+  }
+
+  .kindle img{
+    height: 262px;
+  }
+
+  .videomusic img{
+    height:70px;
+  }
+
   /* ── CONTROLS ── */
   .controls {
     border-bottom: 1px solid var(--border);
@@ -556,6 +574,11 @@
   
 </header>
 
+<div class="between">
+      <a href="https://amzn.to/4teQwSq" class="videomusic"><img src="primevideo.jpg" alt="amazonprimevideo"></a>
+      <a href="https://amzn.to/41x4qUb" class="videomusic"><img src="music.jpg" alt="amazonmusic"></a>
+    </div>
+
 <div class="controls">
   <!-- Row 1: Search + Year filter + View toggle -->
   <div class="controls-row">
@@ -569,6 +592,8 @@
     <div class="filter-chips" id="year-filters">
       <button class="chip chip-year active" data-year="ALL" onclick="filterYear(this,'ALL')">ALL</button>
     </div>
+
+
     <div class="view-toggle">
       <button class="view-btn active" id="btn-grid" title="グリッド表示" onclick="setView('grid')">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
@@ -583,6 +608,8 @@
       </button>
     </div>
   </div>
+
+
   <!-- Row 2: Genre filter -->
   <div class="controls-row">
     <span class="filter-label">Genre</span>
@@ -601,6 +628,7 @@
   </div>
 </div>
 
+
 <footer>
   <div>
   <p>FILM LOG &mdash; Personal Cinema Archive</p>
@@ -608,6 +636,11 @@
   </div>
   <div class="copyright"><p>©︎Camille</p></div>
 </footer>
+<div class="between">
+  <a href="https://amzn.to/4cdBTZS" class="spring"><img src="amazonspringsale.jpg" alt="amazon"></a>
+  <a href="https://amzn.to/47ttgYH" class="kindle"><img src="amazonkindlesale.jpg" alt="amazon"></a>
+  <a href="https://amzn.to/4tab1zF" class="kindle"><img src="kindle2.jpg" alt="amazon"></a>
+</div>
 
 <script>
 // ════════════════════════════════════════════════
